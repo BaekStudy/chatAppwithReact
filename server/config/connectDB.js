@@ -7,7 +7,7 @@ const connectDB = async () => {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       })
-      .then(console.log("몽고디비와 연결됨"))
+      .then(console.log("몽고디비와 연결 성공!"))
       .catch((err) => {
         console.log(err);
       });
