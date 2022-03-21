@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("서버작동");
+  res.send("서버작동!");
 });
 
 const server = app.listen(process.env.PORT, () => {
